@@ -271,6 +271,7 @@
 $('#contactForm').on('submit', function(e) {
 $('#contactForm *').fadeOut(2000);
 $('#contactForm').prepend('Your submission has been processed...');
+$('#contactForm').trigger("reset");
 });
 </script>
         </div>
